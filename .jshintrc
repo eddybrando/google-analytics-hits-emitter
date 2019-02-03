@@ -1,0 +1,69 @@
+{
+  "bitwise": true, // Prohibit bitwise operators (&, |, ^, etc.)
+  "curly": true, // Require {} for every new block or scope
+  "eqeqeq": true, // Require triple equals (===) for comparison
+  "esversion": 5, // Enable ECMAScript 5 syntax
+  "forin": true, // Require filtering for..in loops with obj.hasOwnProperty()
+  "freeze": true, // Prohibits overwriting prototypes of native objects such as Array, Date etc.
+  "futurehostile": true, // Enable warnings about identifiers defined in future JavaScript versions
+  "latedef": true, // Require variables/functions to be defined before being used
+  "maxcomplexity": false, // Disable cyclomatic complexity test
+  "maxdepth": 3, // Maximum depth of 3 levels for nested blocks (within functions)
+  "maxerr": 50, // Maximum of 50 errors before stopping
+  "maxparams": 3, // Maximum of 3 formal params allowed per function
+  "maxstatements": 5, // Maximum of 5 statements per function
+  "noarg": true, // Prohibit use of `arguments.caller` and `arguments.callee`
+  "nocomma": true, // Prohibit use of the comma operator
+  "nonbsp": true, // Prohibit "non-breaking whitespace" characters.
+  "nonew": true, // Prohibit use of constructors for side-effects (without assignment)
+  "shadow": false, // Prohibit re-define variables later in code e.g. `var x=1; x=2;`
+  "singleGroups": true, // Prohibit use of the grouping operator when it is not strictly required
+  "strict": true, // Requires all functions run in ES5 Strict Mode
+  "trailingcomma": true, // Warn when a comma is not placed after the last element in an array or object literal
+  "undef": true, // Require all non-global variables to be declared (prevents global leaks)
+  "unused": true, // Prohibit not using defined variables
+  "varstmt": false, // Allow var statements
+
+  "asi": false, // Prohibit automatic semicolon insertion
+  "boss": false, // Prohibit assignments where comparisons would be expected
+  "debug": false, // Prohibit debugger statements e.g. browser breakpoints
+  "elision": false, // Prohibit use of ES3 array elision elements
+  "eqnull": false, // Prohibit use of `== null`
+  "evil": false, // Prohibit use of `eval` and `new Function()`
+  "expr": false, // Prohibit `ExpressionStatement` as Programs
+  "funcscope": false, // Prohibit defining variables inside control statements
+  "iterator": false, // Prohibit using the `__iterator__` property
+  "lastsemic": false, // Prohibit omitting a semicolon for the last statement of a 1-line block
+  "loopfunc": false, // Prohibit functions being defined in loops
+  "moz": false, // Prohibit Mozilla specific syntax
+  "notypeof": false, // Prohibit invalid typeof operator values
+  "noyield": false, // Prohibit generator functions with no yield statement in them
+  "plusplus": false, // Allow use of `++` and `--`
+  "proto": false, // Prohibit using the `__proto__` property
+  "scripturl": false, // Prohibit script-targeted URLs
+  "supernew": false, // Prohibit `new function () { ... };` and `new Object;`
+  "validthis": false, // Prohibit using this in a non-constructor function
+  "withstmt": false, // Prohibit use of the with statement
+
+  "browser": true, // Define Web Browser (window, document, etc) global variables
+  "browserify": false, // Don't define Browserify (node.js code in the browser) global variables
+  "couch": false, // Don't define CouchDB global variables
+  "devel": false, // Don't define Development/debugging (alert, confirm, etc) global variables
+  "dojo": false, // Don't define Dojo Toolkit global variables
+  "jasmine": false, // Don't define Jasmine global variables
+  "jquery": false, // Don't define jQuery global variables
+  "mocha": false, // Don't define Mocha global variables
+  "module": false, // Input code doesn't describe an ECMAScript 6 module
+  "mootools": false, // Don't define MooTools global variables
+  "node": false, // Don't define Node.js global variables
+  "nonstandard": false, // Don't define Widely adopted globals (escape, unescape, etc) global variables
+  "phantom": false, // Don't define PhantomJS global variables
+  "prototypejs": false, // Don't define Prototype and Scriptaculous global variables
+  "qunit": false, // Don't define QUnit global variables
+  "rhino": false, // Don't define Rhino global variables
+  "shelljs": false, // Don't define globals for typed array constructions
+  "typed": false, // Don't define globals for typed array constructors
+  "worker": false, // Don't define web workers global variables
+  "wsh": false, // Don't define Windows Scripting Host global variables
+  "yui": false // Don't define Yahoo User Interface global variables
+}
