@@ -55,7 +55,7 @@
   "mocha": false, // Don't define Mocha global variables
   "module": false, // Input code doesn't describe an ECMAScript 6 module
   "mootools": false, // Don't define MooTools global variables
-  "node": false, // Don't define Node.js global variables
+  "node": true, // Define Node.js global variables
   "nonstandard": false, // Don't define Widely adopted globals (escape, unescape, etc) global variables
   "phantom": false, // Don't define PhantomJS global variables
   "prototypejs": false, // Don't define Prototype and Scriptaculous global variables
