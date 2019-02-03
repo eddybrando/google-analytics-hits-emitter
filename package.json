@@ -1,6 +1,6 @@
 {
   "name": "@eddybrando.vasquez/google-analytics-hits-emitter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Google Analytics hits emitter helper utility",
   "main": "index.js",
   "scripts": {
